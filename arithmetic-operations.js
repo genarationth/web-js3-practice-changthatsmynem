@@ -25,3 +25,11 @@ const divide = (a, b) => {
 };
 
 console.log(divide(236, 46));
+
+//Every Operations in Short-Handed Arrow Form
+const addition = (a, b) => a + b;
+const subtraction = (a, b) => a - b;
+const multiplication = (a, b) => a * b;
+const division = (a, b) => a / b;
+
+console.log(division(40, 5));
