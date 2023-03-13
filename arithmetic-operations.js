@@ -1,9 +1,12 @@
+let a = Math.floor(Math.random() * 1000);
+let b = Math.floor(Math.random() * 1000);
+
 //Addition Operation - declaration function
 function addOperands(a, b) {
   return a + b;
 }
 
-console.log(addOperands(3, 9));
+console.log(addOperands(a, b));
 
 //Subtraction Operation - expression function
 const subtract = function (a, b) {
@@ -32,4 +35,7 @@ const subtraction = (a, b) => a - b;
 const multiplication = (a, b) => a * b;
 const division = (a, b) => a / b;
 
-console.log(division(40, 5));
+console.log(addition(a, b));
+console.log(subtraction(a, b));
+console.log(multiplication(a, b));
+console.log(division(a, b));
